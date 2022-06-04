@@ -1,0 +1,72 @@
+.container-fluid {
+  padding-bottom: 0px;
+}
+
+.bg-light {
+  background-color: #ce0505 !important;
+}
+.navbar {
+  padding-top: 15px;
+  padding-left: 70px;
+}
+.navbar-brand {
+  width: 45px;
+  background-color: white !important;
+  color: #eb2929 !important;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  height: 45px;
+  border-radius: 50%;
+  line-height: 31px;
+}
+.unhide {
+  display: none;
+}
+.btn-outline-success {
+  color: white !important;
+  border: 1px solid white !important;
+}
+.btn.btn-outline-success:active,
+.btn.btn-outline-success:hover,
+.btn.btn-outline-success:focus {
+  color: #8c96ab !important;
+  background-color: transparent !important;
+  border-color: #8c96ab !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+.btn.btn-link:active,
+.btn.btn-link:hover,
+.btn.btn-link:focus {
+  color: #8c96ab;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Media Qeury */
+@media only screen and (max-width: 640px) {
+  .navbar {
+    padding-left: 20px;
+  }
+  .container-fluid {
+    margin: 0 0 auto auto;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .bf-header {
+    margin: 31px 111px 12px 24px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #192f60;
+  }
+}

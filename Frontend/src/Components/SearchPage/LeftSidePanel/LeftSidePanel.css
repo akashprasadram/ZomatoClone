@@ -1,0 +1,44 @@
+.h2 {
+  font-family: "Poppins", sans-serif;
+  color: #192f60 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heading-style {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #192f60;
+  margin: 22px 0px 15px 0px;
+}
+
+.Text-Style {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  color: #8c96ab !important;
+  border-bottom: none !important;
+}
+
+.hidden-button {
+  display: none;
+  margin: 33px 28.6px 0 25.2px;
+  border-radius: 3px;
+  border: solid 1px #ce0505;
+  color: #ce0505;
+  background-color: inherit;
+}
+.hidden-button:hover,
+.hidden-button::after,
+.hidden-button:focus {
+  border: solid 1px #ce0505;
+  color: #ce0505;
+  background-color: inherit;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .hidden-button {
+    display: inline-block;
+  }
+}

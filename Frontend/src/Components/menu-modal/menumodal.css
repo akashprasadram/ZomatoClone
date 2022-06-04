@@ -1,0 +1,60 @@
+.Shop-Name {
+  color: #192f60;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.card {
+  padding: 0;
+}
+.h5 {
+  font-size: 20px;
+}
+.modal-body {
+  padding: 0;
+}
+.card-text {
+  font-size: 14px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 30px 20px 0;
+}
+.menuImg {
+  width: 110px;
+  height: 120px;
+}
+.quantity {
+  background: #fff;
+  position: relative;
+  top: -15px;
+  z-index: 1;
+  border: 1px solid #dfdfdf;
+}
+.increase,
+.decrease {
+  border: none;
+  background: none;
+  margin: 2px 5px;
+}
+.increase:hover,
+.decrease:hover {
+  background: #dfdfdf;
+}
+.modal-footer {
+  justify-content: space-between;
+}
+
+.totalAmount {
+  font-weight: 500;
+  font-size: 20px;
+}
+/*
+.btn-pay {
+  float: right;
+}
+*/

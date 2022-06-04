@@ -1,0 +1,69 @@
+.bf-header {
+  margin-left: 100px;
+  margin-top: 40px;
+  color: #192f60 !important;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.hidden-data {
+  display: none;
+}
+
+.right-side-panel {
+  border: 1px solid #fff;
+  height: auto;
+  margin: 25px 25px 25px 100px;
+  /* margin-left:113px; */
+  padding: 1px;
+  height: 700px;
+}
+.left-side-panel {
+  border: 1px solid #fff;
+  height: auto;
+  margin: 25px 25px 25px 100px;
+  /* margin-left:113px; */
+  padding: 1px;
+}
+
+.shadow {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 17px 25px 31px 26px;
+  background-color: #fff;
+  width: 260px;
+}
+
+/* Media Qeury */
+@media only screen and (max-width: 640px) {
+  .hidden-data {
+    margin: 12px 111px 0px 24px;
+    display: block;
+    width: 90%;
+  }
+  .header {
+    padding: 15px 50px 13px 30px;
+    background-color: #ce0505;
+  }
+
+  #left-side-panel {
+    display: none;
+    margin: 25px 25px;
+    border: 1px solid black;
+    position: absolute;
+    width: 92%;
+    z-index: 2;
+  }
+  .right-side-panel {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+  }
+  .Parent-Container {
+    padding: 0px !important;
+  }
+  #hidden-apply-button {
+    display: block;
+  }
+}

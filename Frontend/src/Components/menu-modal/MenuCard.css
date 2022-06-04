@@ -1,0 +1,16 @@
+/* .hiddenQuantity {
+  display: flex;
+}*/
+.showQuantity {
+  display: none;
+}
+.vegLogo {
+  width: 12px;
+  height: 12px;
+  background: green;
+}
+.logoContainer {
+  border: 1px solid black;
+  width: 18px;
+  padding: 2px;
+}
